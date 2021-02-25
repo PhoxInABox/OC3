@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Full Palette</title>
+
+    <base href="index.html" />
+    <link rel="stylesheet" type="text/css" href="styles/style.min.css" />
+    <script src="https://kit.fontawesome.com/949298e37f.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="title" content="ohmyfood" />
+    <meta name="description" content="The Full Palette" />
+    <meta name="keywords" content="ohmyfood, restaurant, menu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html">
+            <span class="back-to-homepage">
+                <i role="img" class="fas fa-arrow-left"></i>
+            </span>
+            <span class="logo">ohmyfood</span>
+        </a>
+    </header>
+
+    <main>
+        <header class="restaurant-header">
+            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" />
+            <div class="title">
+                <h1 id="main-content">The Full Pallette</h1>
+            </div>
+        </header>
+
+        <form class="menu-select" method="POST">
+            <h2>ENTREES</h2>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="fricassee-descargot" type="checkbox" value="fricassee-descargot"
+                        name="entrees" />
+                    <div class="card-label__title">
+                        <h3>
+                            Escargot
+                        </h3>
+                        <p>With southern French spices</p>
+                    </div>
+                        <span class="card-label__price">25€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="fois-gras" type="checkbox" value="fois-gras" name="entrees" />
+                    <div class="card-label__title">
+                        <h3>
+                            Duck Foie Gras
+                        </h3>
+                        <p>With black truffle shavings</p>
+                    </div>
+                        <span class="card-label__price">35€</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="tartare-de-thon" type="checkbox" value="tartare-de-thon"
+                        name="entrees" />
+                    <div class="card-label__title">
+                        <h3>
+                            Fried egg
+                        </h3>
+                        <p>...</p>
+                    </div>
+                        <span class="card-label__price">20€</span>
+                    </div>
+                </div>
+            </article>
+
+            <h2>MAIN DISHES</h2>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="filet-de-boeuf" type="checkbox" value="filet-de-boeuf"
+                        name="plats" />
+                    <div class="card-label__title">
+                        <h3>
+                            Herb-Encrusted Steak
+                        </h3>
+                        <p>With delicately sliced and seasoned vegetables
+                        </p>
+                    </div>
+                        <span class="card-label__price">40€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="parmentier-de-queue-de-boeuf" type="checkbox"
+                        value="parmentier-de-queue-de-boeuf" name="plats" />
+                    <div class="card-label__title">
+                        <h3>
+                            Ox Tail Shepherd's Pie
+                        </h3>
+                        <p>with black truffle and pureed parsnips
+                        </p>
+                    </div>
+                    <span class="card-label__price">35€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="filet-de-turbot" type="checkbox" value="filet-de-turbot"
+                        name="plats" />
+                    <div class="card-label__title">
+                        <h3>
+                            Filet of Sole
+                        </h3>
+                        <p>with citrus dressing
+                        </p>
+                    </div>
+                        <span class="card-label__price">44€</span>
+                    </div>
+                </div>
+            </article>
+
+            <h2>DESSERTS</h2>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="paris-brest" type="checkbox" value="paris-brest" name="desserts" />
+                    <div class="card-label__title">
+                        <h3>
+                            Paris-Brest
+                        </h3>
+                        <p>Revisted</p>
+                    </div>
+                        <span class="card-label__price">18€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="macaron-au-chocolat" type="checkbox" value="macaron-au-chocolat"
+                        name="desserts" />
+                    <div class="card-label__title">
+                        <h3>
+                            Chocolate Macaroons
+                        </h3>
+                        <p>With vanilla ice cream
+                        </p>
+                    </div>
+                        <span class="card-label__price">22€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-label">
+                    <input class="select-button" id="mousse-au-chocolat" type="checkbox" value="mousse-au-chocolat"
+                        name="desserts" />
+                    <div class="card-label__title">
+                        <h3>
+                            Chocolate Mousse
+                        </h3>
+                        <p>With spices and black truffle
+                        </p>
+                    </div>
+                        <span class="card-label__price">23€</span>
+
+                    </div>
+                </div>
+            </article>
+
+            <button class="button">Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <h2>ohmyfood</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-utensils"></i>
+                        Suggest a restaurant
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-hands-helping"></i>
+                        Become a partner
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Legal</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
